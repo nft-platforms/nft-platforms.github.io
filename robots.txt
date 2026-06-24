@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nft-platforms.github.io/sitemap.xml
