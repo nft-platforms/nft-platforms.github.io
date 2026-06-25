@@ -1,1 +1,24 @@
-{"name": "Mintly — NFT Platforms Guide", "short_name": "Mintly", "start_url": "/", "display": "standalone", "background_color": "#0A0E16", "theme_color": "#0A0E16", "icons": [{"src": "assets/web-app-manifest-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"}, {"src": "assets/web-app-manifest-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}]}
+{
+  "name": "NFT Platforms",
+  "short_name": "NFT Platforms",
+  "description": "NFT Platforms let you mint, buy and sell NFTs from your own wallet.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F7F4",
+  "theme_color": "#6366F1",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
