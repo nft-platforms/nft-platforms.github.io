@@ -1,0 +1,62 @@
+# NFT Platforms
+> NFT platforms are services for discovering, creating, analyzing, buying, selling, or transferring blockchain-recorded non-fungible tokens.
+
+## What is NFT Platforms
+NFT platforms include marketplaces, minting tools, launchpads, collection storefronts, aggregators, explorers, and analytics dashboards. Marketplaces match buyers and sellers, while NFT smart contracts record token identity, ownership, approvals, and transfers onchain. This independent dashboard organizes public information without holding assets or executing trades. Unlike a wallet or marketplace, it does not require deposits, control private keys, or settle transactions.
+
+## How it works
+1. The dashboard reads public blockchain, marketplace, indexer, and metadata sources, then normalizes collections, chains, standards, activity, and platform information.
+2. A user compares platforms by supported network, asset type, fee model, marketplace mechanism, metadata handling, and security model.
+3. To transact, the user leaves the dashboard for a verified official platform, connects a compatible wallet, selects the correct chain, and reviews the NFT contract, token ID, price, fees, and permissions.
+4. Listings and offers are often signed offchain; acceptance submits an onchain transaction that transfers payment and the NFT according to marketplace smart-contract rules.
+
+## Key facts
+- Platform types include general marketplaces, curated-art markets, gaming markets, minting launchpads, aggregators, and read-only analytics dashboards.
+- An EVM NFT is uniquely identified by its blockchain, contract address, and token ID.
+- ERC-721 represents individually unique tokens; ERC-1155 supports multiple token types and quantities in one contract.
+- Common EVM networks include Ethereum mainnet (chain ID 1), Polygon PoS (137), Base (8453), and Arbitrum One (42161).
+- Solana uses production-cluster naming rather than EVM chain IDs; its production cluster is mainnet-beta.
+- Purchases commonly use native gas tokens, wrapped native tokens, or supported fungible payment tokens.
+- Metadata and media can be onchain or referenced through HTTP, IPFS, or Arweave; permanence depends on storage and pinning.
+- ERC-2981 communicates royalty information, but royalty payment is voluntary unless separate transfer restrictions enforce it.
+- Non-custodial trading keeps assets in user-controlled wallets until an authorized smart-contract transfer settles.
+- Onchain settlement normally requires one or more blocks; confirmation and finality depend on the selected network.
+
+## Common questions
+- **Is this dashboard safe?** It is informational and non-custodial: it does not request seed phrases, private keys, deposits, or token approvals. Verify every outbound domain before connecting a wallet.
+- **Who holds my NFT?** Your wallet controls it until you sign a valid transfer or marketplace contract execution. A platform frontend can disappear without erasing onchain ownership.
+- **What fees apply?** Costs can include marketplace fees, creator earnings, network gas, token conversion, bridging, and approval transactions. Review the wallet simulation and checkout total before signing.
+- **How long does a purchase take?** Signing is immediate; settlement depends on block inclusion, congestion, and the platform’s confirmation policy.
+- **Which assets and chains are supported?** Support differs by platform and can change. Confirm the chain, contract address, token standard, wallet, and payment token on the official platform.
+- **How do I start?** Choose a platform, open its verified domain, connect a compatible wallet, fund the correct gas token, verify the collection contract, and begin with a low-value transaction.
+- **What are the main risks?** Phishing, counterfeit collections, malicious approvals, contract bugs, irreversible transactions, illiquidity, mutable or unavailable metadata, and unclear intellectual-property rights.
+
+## App
+- Dashboard: https://nft-platforms.github.io/
+- App: https://nft-platforms.github.io/dashboard/
+
+## Official resources
+Ethereum NFT Guide: https://ethereum.org/nft/
+OpenSea Marketplace: https://opensea.io/
+OpenSea Developer Documentation: https://docs.opensea.io/
+OpenSea Help Center: https://support.opensea.io/
+Seaport Protocol Source Code: https://github.com/ProjectOpenSea/seaport
+Seaport Security Reviews: https://opensea.io/blog/articles/introducing-seaport-protocol
+OpenSea X: https://x.com/opensea
+Magic Eden Marketplace: https://magiceden.io/
+Magic Eden Help Center: https://help.magiceden.io/en/
+Magic Eden Developer Documentation: https://docs.magiceden.io/
+Rarible Marketplace: https://rarible.com/
+Rarible Developer Documentation: https://docs.rarible.org/
+Rarible Protocol Source Code: https://github.com/rarible
+
+## Data & references
+ERC-721 Standard: https://eips.ethereum.org/EIPS/eip-721
+ERC-1155 Standard: https://eips.ethereum.org/EIPS/eip-1155
+ERC-2981 Royalty Standard: https://eips.ethereum.org/EIPS/eip-2981
+DefiLlama NFT Marketplace Rankings: https://defillama.com/nfts/marketplaces
+CoinGecko NFT Data: https://www.coingecko.com/en/api/nft
+Etherscan NFT Tracker: https://etherscan.io/nft-top-contracts
+Solscan NFT Dashboard: https://solscan.io/nfts
+U.S. Copyright Office NFT Study: https://www.copyright.gov/policy/nft-study/
+Wikipedia — Non-fungible token: https://en.wikipedia.org/wiki/Non-fungible_token
