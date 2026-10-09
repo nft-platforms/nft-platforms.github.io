@@ -1,298 +1,1310 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NFT Platforms — Compare NFT markets with confidence</title>
-  <meta name="description" content="NFT platforms are online marketplaces and infrastructure services for minting, discovering, buying, selling, and analyzing non-fungible tokens across ">
-  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-  <meta name="theme-color" content="#eef0f3">
-  <link rel="canonical" href="https://nft-platforms.github.io/">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="prefetch" href="dashboard/index.html">
-  <link rel="preconnect" href="https://defillama.com/" crossorigin>
-  <link rel="preconnect" href="https://coins.llama.fi" crossorigin>
-  <meta property="og:type" content="website"><meta property="og:url" content="https://nft-platforms.github.io/">
-  <meta property="og:title" content="NFT Platforms — Compare NFT markets with confidence">
-  <meta property="og:description" content="NFT platforms are online marketplaces and infrastructure services for minting, discovering, buying, selling, and analyzing non-fungible tokens across ">
-  <meta property="og:site_name" content="NFT Platforms dashboard"><meta property="og:image" content="https://nft-platforms.github.io/favicon.png">
-  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="NFT Platforms — Compare NFT markets with confidence"><meta name="twitter:description" content="NFT platforms are online marketplaces and infrastructure services for minting, discovering, buying, selling, and analyzing non-fungible tokens across "><meta name="twitter:image" content="https://nft-platforms.github.io/favicon.png">
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@graph":[
-      {"@type":"WebSite","@id":"https://nft-platforms.github.io/#website","url":"https://nft-platforms.github.io/","name":"NFT Platforms dashboard","inLanguage":"en-US"},
-      {"@type":"Thing","@id":"https://nft-platforms.github.io/#brand","name":"NFT Platforms",
-       "description":"NFT platforms are online marketplaces and infrastructure services for minting, discovering, buying, selling, and analyzing non-fungible tokens across blockchains.",
-       "sameAs":["https://opensea.io/", "https://blur.io/", "https://magiceden.us/about", "https://rarible.com/"]},
-      {"@type":"WebPage","@id":"https://nft-platforms.github.io/#webpage","url":"https://nft-platforms.github.io/","name":"NFT Platforms \u2014 Compare NFT markets with confidence","description":"NFT platforms are online marketplaces and infrastructure services for minting, discovering, buying, selling, and analyzing non-fungible tokens across ","isPartOf":{"@id":"https://nft-platforms.github.io/#website"},"about":{"@id":"https://nft-platforms.github.io/#brand"},"mainEntity":{"@id":"https://nft-platforms.github.io/#brand"},"inLanguage":"en-US","mentions":[{"@type":"Thing","name":"Non-fungible tokens","sameAs":"https://en.wikipedia.org/wiki/Non-fungible_token"},{"@type":"Thing","name":"ERC-721","sameAs":"https://eips.ethereum.org/EIPS/eip-721"},{"@type":"Thing","name":"ERC-1155","sameAs":"https://eips.ethereum.org/EIPS/eip-1155"},{"@type":"Thing","name":"NFT marketplace volume","sameAs":"https://defillama.com/nfts/marketplaces"}]},
-      {"@type":"ItemList","@id":"https://nft-platforms.github.io/#resources","name":"NFT Platforms \u2014 resources & references","itemListElement":[{"@type":"ListItem","position":1,"name":"Ethereum NFTs","url":"https://ethereum.org/nft/"},{"@type":"ListItem","position":2,"name":"ERC-721","url":"https://eips.ethereum.org/EIPS/eip-721"},{"@type":"ListItem","position":3,"name":"ERC-1155","url":"https://eips.ethereum.org/EIPS/eip-1155"},{"@type":"ListItem","position":4,"name":"Non-fungible token","url":"https://en.wikipedia.org/wiki/Non-fungible_token"},{"@type":"ListItem","position":5,"name":"DeFiLlama Marketplaces","url":"https://defillama.com/nfts/marketplaces"},{"@type":"ListItem","position":6,"name":"DappRadar Rankings","url":"https://dappradar.com/rankings/category/nft-marketplace-general"},{"@type":"ListItem","position":7,"name":"Blur","url":"https://blur.io/"},{"@type":"ListItem","position":8,"name":"OpenSea","url":"https://opensea.io/"},{"@type":"ListItem","position":9,"name":"Welcome to OpenSea","url":"https://support.opensea.io/en/articles/8866942-welcome-to-opensea"},{"@type":"ListItem","position":10,"name":"OpenSea Documentation","url":"https://docs.opensea.io/"},{"@type":"ListItem","position":11,"name":"About Magic Eden","url":"https://magiceden.us/about"},{"@type":"ListItem","position":12,"name":"Rarible","url":"https://rarible.com/"},{"@type":"ListItem","position":13,"name":"Protect Your NFTs","url":"https://support.opensea.io/en/articles/8867129-how-can-i-stay-safe-and-protect-my-nfts"},{"@type":"ListItem","position":14,"name":"Common Web3 Scams","url":"https://support.opensea.io/en/articles/9270591-what-are-some-common-web3-scams"},{"@type":"ListItem","position":15,"name":"Revoke Token Approvals","url":"https://support.metamask.io/more-web3/learn/how-to-revoke-smart-contract-allowances-token-approvals/"},{"@type":"ListItem","position":16,"name":"Ethereum Security","url":"https://ethereum.org/security/"}]}
-    ]
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NFT Platforms — Minting, Launchpads & Creator Tools Explained</title>
+<meta name="description" content="NFT Platforms are the minting tools, launchpads, token standards and chains creators use to build and manage collections. Learn how ERC-721 and ERC-1155 work, how royalties are set, and how to launch a collection.">
+<link rel="canonical" href="https://nft-platforms.github.io/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NFT Platforms">
+<meta property="og:url" content="https://nft-platforms.github.io/">
+<meta property="og:image" content="https://nft-platforms.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NFT Platforms">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://nft-platforms.github.io/#website", "url": "https://nft-platforms.github.io/", "name": "NFT Platforms — Minting, Launchpads & Creator Tools Explained"}, {"@type": "WebPage", "@id": "https://nft-platforms.github.io/#webpage", "url": "https://nft-platforms.github.io/", "name": "NFT Platforms — Minting, Launchpads & Creator Tools Explained", "isPartOf": {"@id": "https://nft-platforms.github.io/#website"}, "description": "NFT Platforms are the minting tools, launchpads, token standards and chains creators use to build and manage collections. Learn how ERC-721 and ERC-1155 work, how royalties are set, and how to launch a collection.", "datePublished": "2026-10-09", "dateModified": "2026-10-09"}, {"@type": "SoftwareApplication", "name": "NFT Platforms", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nft-platforms.github.io/"}, {"@type": "ListItem", "position": 2, "name": "NFT"}, {"@type": "ListItem", "position": 3, "name": "NFT Platforms"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What exactly are NFT Platforms?", "acceptedAnswer": {"@type": "Answer", "text": "NFT Platforms are the minting tools, launchpads, creator dashboards and underlying token standards used to create and manage non-fungible tokens, as distinct from the marketplaces that later list them for sale."}}, {"@type": "Question", "name": "What is the difference between a minting platform and a launchpad?", "acceptedAnswer": {"@type": "Answer", "text": "A minting platform turns artwork or metadata into an on-chain token. A launchpad adds scheduling and access control on top — allowlists, mint phases and per-wallet limits — for a public drop."}}, {"@type": "Question", "name": "Should I use ERC-721 or ERC-1155?", "acceptedAnswer": {"@type": "Answer", "text": "ERC-721 suits unique, one-of-one tokens where each item needs its own identity. ERC-1155 suits editions, game items or anything minted in quantity, since one contract can manage many token types and batch transfers."}}, {"@type": "Question", "name": "Do all NFT Platforms enforce royalties automatically?", "acceptedAnswer": {"@type": "Answer", "text": "No. Some write royalty enforcement directly into the contract, while others rely on marketplaces voluntarily honoring royalty metadata. The two models behave very differently for long-term creator income."}}, {"@type": "Question", "name": "Which chain should a new collection launch on?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the project. Ethereum offers the deepest liquidity and tooling, while Polygon, Base and Solana offer lower fees for high-volume or game-asset minting. Check chain support before committing to a platform."}}, {"@type": "Question", "name": "Can a collection move to a different platform or chain after launch?", "acceptedAnswer": {"@type": "Answer", "text": "Moving a live collection to a different chain or minting platform is difficult once a community and secondary market exist around the original contract, so chain and standard choices are worth getting right before launch."}}, {"@type": "Question", "name": "How do I verify who actually owns an NFT?", "acceptedAnswer": {"@type": "Answer", "text": "Ownership is recorded on-chain against the token's contract and ID, so anyone can check the current holder of a specific token directly on a public chain explorer."}}]}]}</script>
+<style>
+:root{--bg:#FAF9FC;--surface:#FFFFFF;--text:#16131F;--muted:#5F5870;--accent:#7C3AED;--accent-ink:#FFFFFF;--radius:12px;--display:"Sora";--body:"Inter"}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-width: 280px;
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+::selection {
+  color: var(--accent-ink);
+  background: var(--accent);
+}
+a {
+  color: var(--accent);
+  text-decoration-thickness: .075em;
+  text-underline-offset: .2em;
+  transition: color .18s ease, background .18s ease, border-color .18s ease;
+}
+a:hover {
+  color: var(--text);
+}
+a:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+  border-radius: calc(var(--radius) * .35);
+}
+img,
+svg,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+img,
+video {
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  color: var(--text);
+  font-family: var(--display);
+  font-weight: 650;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote {
+  margin-top: 0;
+}
+[hidden] {
+  display: none !important;
+}
+.cefe23b {
+  width: min(100% - 6rem, 1240px);
+  margin-inline: auto;
+}
+.c5c0a72 {
+  position: absolute;
+  z-index: 20;
+  top: 1rem;
+  left: 1rem;
+  padding: .75rem 1.15rem;
+  transform: translateY(-180%);
+  border-radius: var(--radius);
+  color: var(--accent-ink);
+  background: var(--accent);
+  font-weight: 600;
+}
+.c5c0a72:focus {
+  transform: translateY(0);
+}
+.cffaac0 {
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 10%, var(--bg));
+  background: var(--bg);
+}
+.c90aefa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  min-height: 88px;
+  padding-block: 1rem;
+}
+.c78a686 {
+  display: inline-flex;
+  align-items: center;
+  gap: .75rem;
+  color: var(--text);
+  font-family: var(--display);
+  font-size: 1.2rem;
+  font-weight: 650;
+  letter-spacing: -.04em;
+}
+.c497502 {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--surface));
+  border-radius: calc(var(--radius) * .55);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+}
+.c497502 svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.c78d633 {
+  display: inline-flex;
+  align-items: center;
+  gap: .8rem;
+  padding: .5rem 0;
+  color: var(--text);
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.c78d633:hover {
+  color: var(--accent);
+}
+.cdb88d6 {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 15%, var(--bg));
+  background:
+    radial-gradient(ellipse at 95% 12%, color-mix(in srgb, var(--accent) 14%, transparent), color-mix(in srgb, var(--accent) 0%, transparent) 62%),
+    linear-gradient(130deg, var(--surface), color-mix(in srgb, var(--accent) 5%, var(--bg)) 70%, var(--bg));
+}
+.cdb88d6::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 520px;
+  height: 520px;
+  right: -240px;
+  bottom: -310px;
+  border: 1px solid color-mix(in srgb, var(--accent) 15%, transparent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 65px color-mix(in srgb, var(--accent) 3%, transparent), 0 0 0 130px color-mix(in srgb, var(--accent) 2%, transparent);
+  pointer-events: none;
+}
+.cbb3ed4 {
+  padding-block: 1.6rem 5rem;
+}
+.c1f2489 {
+  margin-bottom: 3.8rem;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.6;
+}
+.c98dff1 {
+  display: inline;
+  color: var(--muted);
+  font-family: var(--body);
+  font-size: inherit;
+  text-decoration: none;
+}
+.c98dff1 a,
+a.c98dff1 {
+  color: var(--muted);
+  text-decoration: none;
+}
+.c98dff1 a:hover,
+a.c98dff1:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.c1f2489 ol,
+.c1f2489 ul,
+ol.c98dff1,
+ul.c98dff1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .45rem .7rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.c1f2489 li {
+  display: inline;
+}
+.c1f2489 [aria-current="page"] {
+  color: var(--text);
+}
+.ca97e7f {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .8rem;
+  margin-bottom: 1.35rem;
+  color: var(--accent);
+  font-size: .875rem;
+  font-weight: 600;
+}
+.cd45941 {
+  padding-block: .3rem;
+}
+.cecd65b {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  max-width: 180px;
+  padding: .4rem .65rem;
+  border: 1px solid color-mix(in srgb, var(--text) 9%, var(--surface));
+  border-radius: calc(var(--radius) * .6);
+  background: var(--surface);
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--text) 4%, transparent);
+  color: var(--text);
+  font-size: .8rem;
+  line-height: 1;
+}
+.cecd65b:empty {
+  display: none;
+}
+.cecd65b img,
+.cecd65b svg {
+  display: block;
+  width: auto;
+  max-width: 148px;
+  height: 24px;
+  object-fit: contain;
+}
+.cdb88d6 h1 {
+  max-width: 1050px;
+  margin: 0 0 1.5rem;
+  font-family: var(--display);
+  font-size: clamp(2.7rem, 5.7vw, 5.1rem);
+  font-weight: 600;
+  line-height: 1.06;
+  letter-spacing: -.055em;
+  overflow-wrap: anywhere;
+}
+.cdb88d6 h1 em {
+  color: var(--accent);
+  font-style: normal;
+}
+.cdb88d6 h1 a {
+  color: inherit;
+}
+.c7d309c {
+  max-width: 760px;
+  margin: 0 0 2.1rem;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 1.6vw, 1.22rem);
+  line-height: 1.75;
+  text-wrap: pretty;
+}
+.ce9240f {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7rem;
+  min-height: 54px;
+  padding: .85rem 1.35rem;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  color: var(--accent-ink);
+  background: var(--accent);
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--accent) 18%, transparent);
+  font-family: var(--body);
+  font-size: .95rem;
+  font-weight: 650;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: background .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+.ce9240f:hover {
+  color: var(--accent-ink);
+  background: color-mix(in srgb, var(--accent) 92%, var(--text));
+  box-shadow: 0 9px 24px color-mix(in srgb, var(--accent) 24%, transparent);
+  transform: translateY(-2px);
+}
+.cd52b33 {
+  font-family: var(--body);
+  font-size: 1.25em;
+  line-height: 1;
+}
+.ccb39e4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-block: 1.5rem 4.5rem;
+}
+.c43fad9 {
+  min-width: 0;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid color-mix(in srgb, var(--text) 9%, var(--surface));
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 3px 12px color-mix(in srgb, var(--text) 3%, transparent);
+}
+.c43fad9 strong {
+  display: block;
+  margin-bottom: .2rem;
+  color: var(--text);
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -.02em;
+}
+.c43fad9 span {
+  display: block;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.5;
+}
+.c946517 {
+  display: grid;
+  grid-template-columns: 235px minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  padding-bottom: 4.5rem;
+}
+.c07c0bd {
+  position: sticky;
+  top: 2rem;
+  min-width: 0;
+  max-height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 35%, var(--surface)) var(--surface);
+  padding: .3rem .75rem 1rem .25rem;
+}
+.c98b7b7 {
+  margin: 0 0 1.1rem;
+  color: var(--text);
+  font-family: var(--display);
+  font-size: .95rem;
+  font-weight: 650;
+  letter-spacing: -.02em;
+}
+.c0b06b7 {
+  display: grid;
+  gap: .3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.c0b06b7 li {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+.c336e71 {
+  position: relative;
+  display: block;
+  padding: .7rem .9rem .7rem 1.1rem;
+  border-inline-start: 2px solid color-mix(in srgb, var(--muted) 18%, var(--bg));
+  border-radius: 0 calc(var(--radius) * .55) calc(var(--radius) * .55) 0;
+  color: var(--muted);
+  font-family: var(--body);
+  font-size: .85rem;
+  font-weight: 450;
+  line-height: 1.5;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.c336e71:hover {
+  border-inline-start-color: color-mix(in srgb, var(--accent) 45%, var(--bg));
+  color: var(--text);
+  background: color-mix(in srgb, var(--accent) 5%, var(--bg));
+}
+.c336e71[aria-current="location"] {
+  border-inline-start-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 9%, var(--bg));
+  font-weight: 650;
+}
+.cb2115a {
+  margin: 1.65rem 0 0;
+  padding: 1.2rem 0 0;
+  border-top: 1px solid color-mix(in srgb, var(--text) 10%, var(--bg));
+  color: var(--muted);
+  font-size: .78rem;
+  line-height: 1.65;
+}
+.cc89a60 {
+  min-width: 0;
+}
+.c6dfbe2 {
+  padding: clamp(1.3rem, 3vw, 2.3rem);
+  margin-bottom: 3.75rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--surface));
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 10px 35px color-mix(in srgb, var(--text) 5%, transparent);
+  scroll-margin-top: 2rem;
+}
+.c9e0ee4 {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+  justify-content: space-between;
+  margin-bottom: 1.4rem;
+}
+.c9e0ee4 h2 {
+  margin: 0;
+  font-size: clamp(1.45rem, 2.3vw, 1.85rem);
+  letter-spacing: -.04em;
+}
+.c9e0ee4 p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .8rem;
+}
+.cd4918e {
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted) var(--surface);
+}
+.cddbc83 {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text);
+  font-family: var(--body);
+  font-size: .925rem;
+  line-height: 1.6;
+  text-align: left;
+}
+.cddbc83 caption {
+  padding: 0 0 1rem;
+  color: var(--muted);
+  font-size: .85rem;
+  text-align: left;
+}
+.cddbc83 th,
+.cddbc83 td {
+  padding: 1.05rem .85rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 9%, var(--surface));
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.cddbc83 th {
+  width: 37%;
+  color: var(--muted);
+  font-weight: 500;
+}
+.cddbc83 thead th {
+  color: var(--text);
+  background: color-mix(in srgb, var(--accent) 5%, var(--surface));
+  font-weight: 650;
+}
+.cddbc83 td {
+  font-weight: 550;
+}
+.cddbc83 tr > :first-child {
+  padding-left: 0;
+}
+.cddbc83 tr > :last-child {
+  padding-right: 0;
+}
+.cddbc83 tbody:last-child tr:last-child > *,
+.cddbc83 > tr:last-child > * {
+  border-bottom: 0;
+}
+.cddbc83 td p:last-child,
+.cddbc83 th p:last-child {
+  margin-bottom: 0;
+}
+.c94e73f {
+  min-width: 0;
+}
+.c7e3043 {
+  min-width: 0;
+  margin: 0 0 3.4rem;
+  scroll-margin-top: 2rem;
+}
+.c7e3043 + .c7e3043 {
+  padding-top: 2.8rem;
+  border-top: 1px solid color-mix(in srgb, var(--text) 11%, var(--bg));
+}
+.c4449d2 {
+  margin: 0 0 1.25rem;
+  color: var(--text);
+  font-family: var(--display);
+  font-size: clamp(1.65rem, 2.8vw, 2.35rem);
+  font-weight: 600;
+  line-height: 1.22;
+  letter-spacing: -.045em;
+}
+.c6a6f49 {
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 1rem;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+.c6a6f49 > :last-child {
+  margin-bottom: 0;
+}
+.c6a6f49 p {
+  margin: 0 0 1.3rem;
+  text-wrap: pretty;
+}
+.c6a6f49 h3 {
+  margin: 2rem 0 .9rem;
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -.025em;
+}
+.c6a6f49 h4,
+.c6a6f49 h5,
+.c6a6f49 h6 {
+  margin: 1.6rem 0 .75rem;
+  font-size: 1.075rem;
+  line-height: 1.4;
+}
+.c6a6f49 h3:first-child,
+.c6a6f49 h4:first-child {
+  margin-top: 0;
+}
+.c6a6f49 strong,
+.c41a2b4 strong {
+  color: var(--text);
+  font-weight: 650;
+}
+.c6a6f49 ul,
+.c6a6f49 ol,
+.c41a2b4 ul,
+.c41a2b4 ol {
+  margin: 1.2rem 0 1.6rem;
+  padding-left: 1.5rem;
+}
+.c6a6f49 li,
+.c41a2b4 li {
+  padding-left: .4rem;
+  margin-block: .55rem;
+}
+.c6a6f49 li::marker,
+.c41a2b4 li::marker {
+  color: var(--accent);
+  font-weight: 600;
+}
+.c6a6f49 li > ul,
+.c6a6f49 li > ol {
+  margin-block: .5rem;
+}
+.c6a6f49 li p {
+  margin-bottom: .6rem;
+}
+.c6a6f49 blockquote {
+  margin: 1.8rem 0;
+  padding: 1.3rem 1.5rem;
+  border-inline-start: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+  color: var(--text);
+  font-size: 1.05rem;
+}
+.c6a6f49 blockquote > :last-child {
+  margin-bottom: 0;
+}
+.c6a6f49 blockquote cite {
+  display: block;
+  margin-top: .9rem;
+  color: var(--muted);
+  font-size: .85rem;
+  font-style: normal;
+}
+.c6a6f49 table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.7rem 0;
+  overflow-x: auto;
+  border: 1px solid color-mix(in srgb, var(--text) 12%, var(--surface));
+  border-radius: var(--radius);
+  border-spacing: 0;
+  background: var(--surface);
+  font-family: var(--body);
+  font-size: .875rem;
+  line-height: 1.65;
+  text-align: left;
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted) var(--surface);
+}
+.c6a6f49 table caption {
+  padding: .9rem 1rem;
+  color: var(--muted);
+  font-size: .82rem;
+  text-align: left;
+}
+.c6a6f49 th,
+.c6a6f49 td {
+  min-width: 125px;
+  padding: 1rem 1.15rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 9%, var(--surface));
+  vertical-align: top;
+}
+.c6a6f49 th {
+  color: var(--text);
+  background: color-mix(in srgb, var(--accent) 7%, var(--surface));
+  font-weight: 650;
+}
+.c6a6f49 tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--text) 2%, var(--surface));
+}
+.c6a6f49 tbody:last-child tr:last-child > * {
+  border-bottom: 0;
+}
+.c6a6f49 td > :last-child,
+.c6a6f49 th > :last-child {
+  margin-bottom: 0;
+}
+.c6a6f49 figure {
+  margin: 1.8rem 0;
+}
+.c6a6f49 figure img {
+  display: block;
+  border-radius: var(--radius);
+}
+.c6a6f49 figcaption {
+  margin-top: .7rem;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.6;
+}
+.c6a6f49 code,
+.c41a2b4 code {
+  padding: .1em .35em;
+  border-radius: calc(var(--radius) * .25);
+  background: color-mix(in srgb, var(--accent) 7%, var(--surface));
+  color: var(--text);
+  font-family: var(--body);
+  font-size: .9em;
+}
+.c6a6f49 pre {
+  overflow-x: auto;
+  padding: 1.2rem;
+  border: 1px solid color-mix(in srgb, var(--text) 10%, var(--surface));
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: .875rem;
+  line-height: 1.7;
+}
+.c6a6f49 pre code {
+  padding: 0;
+  background: var(--surface);
+}
+.c6a6f49 hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid color-mix(in srgb, var(--text) 12%, var(--bg));
+}
+.c6a6f49 dt {
+  margin-top: 1.1rem;
+  color: var(--text);
+  font-weight: 650;
+}
+.c6a6f49 dd {
+  margin: .4rem 0 1rem;
+  color: var(--muted);
+}
+.cfaed6d {
+  padding-top: 2.75rem;
+  border-top: 1px solid color-mix(in srgb, var(--text) 11%, var(--bg));
+  scroll-margin-top: 2rem;
+}
+.cfaed6d > .c4449d2 {
+  margin-bottom: 1.65rem;
+}
+.c4f1704 {
+  margin: 0 0 .8rem;
+  border: 1px solid color-mix(in srgb, var(--text) 11%, var(--surface));
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 3px 12px color-mix(in srgb, var(--text) 3%, transparent);
+  overflow: clip;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.c4f1704:hover {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--surface));
+}
+.c4f1704[open] {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--surface));
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--text) 4%, transparent);
+}
+.caa4bcc {
+  position: relative;
+  display: block;
+  padding: 1.35rem 3.8rem 1.35rem 1.4rem;
+  color: var(--text);
+  font-family: var(--display);
+  font-size: 1.025rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -.015em;
+  list-style: none;
+  cursor: pointer;
+}
+.caa4bcc::-webkit-details-marker {
+  display: none;
+}
+.caa4bcc::after {
+  content: "+";
+  position: absolute;
+  top: 1.3rem;
+  right: 1.35rem;
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
+  color: var(--accent);
+  font-family: var(--body);
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.c4f1704[open] > .caa4bcc::after {
+  content: "−";
+}
+.c4f1704 > .caa4bcc:focus-visible {
+  outline-offset: -5px;
+}
+.c41a2b4 {
+  padding: 0 1.4rem 1.45rem;
+  color: var(--muted);
+  font-family: var(--body);
+  font-size: .95rem;
+  line-height: 1.8;
+}
+.c41a2b4 > :first-child {
+  margin-top: 0;
+}
+.c41a2b4 > :last-child {
+  margin-bottom: 0;
+}
+.c41a2b4 p {
+  margin-bottom: 1rem;
+}
+.cdb9218 {
+  padding-block: 3rem 3.6rem;
+  border-top: 1px solid color-mix(in srgb, var(--text) 10%, var(--bg));
+  background: color-mix(in srgb, var(--surface) 70%, var(--bg));
+  scroll-margin-top: 2rem;
+}
+.c334f5b {
+  display: grid;
+  grid-template-columns: 235px minmax(0, 1fr);
+  gap: clamp(2.5rem, 5vw, 5rem);
+}
+.cc106f7 h2 {
+  margin-bottom: .7rem;
+  font-size: 1.4rem;
+  letter-spacing: -.035em;
+}
+.cc106f7 p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .85rem;
+  line-height: 1.7;
+}
+.c7d7921 {
+  min-width: 0;
+}
+.cf31224 {
+  display: grid;
+  gap: .7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--body);
+}
+.c3834c2 {
+  display: block;
+  min-width: 0;
+  padding: 1rem 1.2rem;
+  border: 1px solid color-mix(in srgb, var(--text) 9%, var(--surface));
+  border-radius: calc(var(--radius) * .75);
+  background: var(--surface);
+  color: var(--muted);
+  font-family: var(--body);
+  font-size: .875rem;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.c3834c2 a,
+a.c3834c2 {
+  color: var(--text);
+  text-decoration-color: color-mix(in srgb, var(--accent) 35%, var(--surface));
+  text-underline-offset: .25em;
+}
+.c3834c2 a:hover,
+a.c3834c2:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+.c3834c2 p {
+  margin: .4rem 0 0;
+}
+.c3834c2 small {
+  color: var(--muted);
+  font-size: .8rem;
+}
+.c576ad7 {
+  border-top: 1px solid color-mix(in srgb, var(--text) 10%, var(--bg));
+  background: var(--bg);
+}
+.c12b089 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  min-height: 100px;
+  padding-block: 1.5rem;
+}
+.c9fcdd5 {
+  color: var(--text);
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -.025em;
+}
+.c50a962 {
+  margin: 0;
+  color: var(--muted);
+  font-size: .8rem;
+}
+.c50a962 span {
+  color: var(--text);
+}
+@media (min-width: 1500px) {
+  .cbb3ed4 {
+    padding-bottom: 6rem;
   }
-  </script>
-  <style>
-:root{
-  --bg:#eef0f3; --bg-2:#e7eaef; --panel:#ffffff; --field:#f1f3f7; --field-2:#e9edf2;
-  --ink:#151a21; --text:#414954; --muted:#6a727d; --faint:#9aa2ad;
-  --line:rgba(20,26,33,.09); --line-2:rgba(20,26,33,.14);
-  --accent:#2081E2; --accent-ink:#0b355e; --accent-soft:rgba(32,129,226,0.13); --accent-glow:rgba(32,129,226,0.3);
-  --cta:#171a20; --cta-hover:#0a0c10; --cta-ink:#ffffff;
-  --shadow-card:0 1px 0 rgba(20,26,33,.02), 0 40px 80px -42px rgba(24,32,48,.40), 0 14px 30px -22px rgba(24,32,48,.24);
-  --shadow-pop:0 24px 60px -26px rgba(24,32,48,.38), 0 8px 20px -12px rgba(24,32,48,.22);
-  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
-  --font: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --ease: cubic-bezier(0.22, 0.7, 0.24, 1);
-  color-scheme: light;
+  .c1f2489 {
+    margin-bottom: 4.5rem;
+  }
+  .c946517 {
+    gap: 5.5rem;
+  }
+  .c334f5b {
+    gap: 5.5rem;
+  }
 }
-html[data-theme="dark"]{
-  --bg:#0b0e13; --bg-2:#0e131b; --panel:#141a24; --field:#1b2230; --field-2:#232c3d;
-  --ink:#e9eef7; --text:#bcc5d6; --muted:#8b95a8; --faint:#606a7e;
-  --line:rgba(226,234,250,.10); --line-2:rgba(226,234,250,.18);
-  --accent:#5ea4ea; --accent-ink:#8fc0f0; --accent-soft:rgba(94,164,234,0.16); --accent-glow:rgba(94,164,234,0.34);
-  --cta:#5ea4ea; --cta-hover:#508dc9; --cta-ink:#12161c;
-  --shadow-card:0 30px 70px -34px rgba(0,0,0,.66), 0 6px 18px -10px rgba(0,0,0,.5);
-  --shadow-pop:0 24px 60px -26px rgba(0,0,0,.7);
-  color-scheme: dark;
+@media (max-width: 1050px) {
+  .cefe23b {
+    width: calc(100% - 3rem);
+  }
+  .c946517,
+  .c334f5b {
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 2.25rem;
+  }
+  .ccb39e4 {
+    gap: .75rem;
+  }
+  .c43fad9 {
+    padding: 1rem;
+  }
+  .c336e71 {
+    font-size: .8rem;
+  }
 }
-*{ box-sizing:border-box; }
-html{ height:100%; scroll-behavior:smooth; }
-@media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } }
-body{ margin:0; min-width:320px; height:100%; overflow:hidden; color:var(--text); background:var(--bg); font-family:var(--font); font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
-a{ color:inherit; text-decoration:none; }
-button{ font:inherit; color:inherit; background:none; border:none; cursor:pointer; }
-img{ display:block; max-width:100%; }
-h1,h2,h3,p{ margin:0; }
-a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-radius:10px; }
-.skip{ position:absolute; left:-999px; }
-.skip:focus{ left:12px; top:12px; z-index:120; padding:9px 15px; border-radius:10px; background:var(--cta); color:var(--cta-ink); font-weight:750; }
-.bg{ position:fixed; inset:0; z-index:0; pointer-events:none; overflow:hidden; background:
-  radial-gradient(1100px 700px at 82% 116%, var(--bg-2), transparent 60%),
-  radial-gradient(900px 620px at -6% -8%, var(--bg-2), transparent 58%); }
-.bg::before{ content:""; position:absolute; right:-14%; bottom:-30%; width:min(92vw,940px); aspect-ratio:1; border-radius:50%;
-  background:repeating-radial-gradient(circle at center, transparent 0 86px, var(--line) 86px 87px); opacity:.5; mask:radial-gradient(circle at center, #000 62%, transparent 72%); }
-.bg::after{ content:""; position:absolute; left:-10%; top:-16%; width:min(70vw,560px); aspect-ratio:1; border-radius:50%;
-  background:repeating-radial-gradient(circle at center, transparent 0 64px, var(--line) 64px 65px); opacity:.4; mask:radial-gradient(circle at center, #000 60%, transparent 72%); }
-.topbar{ position:relative; z-index:70; flex:0 0 auto; display:flex; align-items:center; justify-content:space-between; gap:14px; padding:13px clamp(16px,3.4vw,34px);
-  background:color-mix(in srgb, var(--bg) 78%, transparent); backdrop-filter:saturate(140%) blur(12px); -webkit-backdrop-filter:saturate(140%) blur(12px); border-bottom:1px solid var(--line); }
-.tb-left{ display:flex; align-items:center; gap:12px; min-width:0; }
-.hamb{ display:grid; place-items:center; width:40px; height:40px; flex:0 0 auto; position:relative; border:1px solid var(--line-2); border-radius:12px; background:var(--panel); color:var(--ink); transition:border-color .15s var(--ease); }
-.hamb:hover{ border-color:var(--accent); }
-.hamb .bar{ position:absolute; left:11px; right:11px; height:2px; border-radius:2px; background:currentColor; transition:transform .24s var(--ease), opacity .18s var(--ease); }
-.hamb .bar:nth-child(1){ top:14px; } .hamb .bar:nth-child(2){ top:19px; } .hamb .bar:nth-child(3){ top:24px; }
-body.drawer-open .hamb .bar:nth-child(1){ transform:translateY(5px) rotate(45deg); }
-body.drawer-open .hamb .bar:nth-child(2){ opacity:0; }
-body.drawer-open .hamb .bar:nth-child(3){ transform:translateY(-5px) rotate(-45deg); }
-.brand{ display:flex; align-items:center; gap:11px; min-width:0; }
-.brand-logo{ width:34px; height:34px; flex:0 0 auto; display:grid; place-items:center; border-radius:10px; background:var(--panel); box-shadow:inset 0 0 0 1px var(--line-2); }
-.brand-logo img{ width:22px; height:22px; border-radius:50%; }
-.brand-name{ font-size:19px; font-weight:820; letter-spacing:-0.03em; color:var(--ink); line-height:1.1; white-space:nowrap; }
-.tb-right{ display:flex; align-items:center; gap:9px; }
-.theme-toggle{ display:inline-flex; align-items:center; gap:2px; padding:3px; border-radius:999px; background:var(--field); box-shadow:inset 0 0 0 1px var(--line); }
-.theme-toggle button{ display:grid; place-items:center; width:30px; height:30px; border-radius:999px; color:var(--muted); transition:color .15s var(--ease), background-color .15s var(--ease); }
-.theme-toggle button svg{ width:15px; height:15px; }
-.theme-toggle button[aria-pressed="true"]{ color:var(--ink); background:var(--panel); box-shadow:0 2px 8px -3px rgba(0,0,0,.28); }
-.btn-app{ display:inline-flex; align-items:center; gap:8px; padding:9px 15px; border-radius:11px; background:var(--panel); color:var(--ink); font-size:13.5px; font-weight:700; letter-spacing:-0.01em; box-shadow:inset 0 0 0 1px var(--line-2); transition:box-shadow .15s var(--ease), transform .15s var(--ease); white-space:nowrap; }
-.btn-app svg{ width:16px; height:16px; color:var(--muted); }
-.btn-app:hover{ box-shadow:inset 0 0 0 1px var(--accent); transform:translateY(-1px); }
-.btn-app:hover svg{ color:var(--accent-ink); }
-.scrim{ position:fixed; inset:0; z-index:80; background:rgba(10,14,17,.42); opacity:0; visibility:hidden; transition:opacity .28s var(--ease), visibility .28s var(--ease); }
-body.drawer-open .scrim{ opacity:1; visibility:visible; }
-.drawer{ position:fixed; z-index:90; top:0; left:0; height:100dvh; width:300px; max-width:86vw; display:flex; flex-direction:column; padding:16px 14px 16px; background:var(--panel); border-right:1px solid var(--line); box-shadow:var(--shadow-pop);
-  transform:translateX(-104%); transition:transform .3s var(--ease); overflow-y:auto; }
-body.drawer-open .drawer{ transform:translateX(0); }
-.drawer-head{ display:flex; align-items:center; justify-content:space-between; gap:10px; padding:2px 6px 8px; }
-.drawer-head .brand-name{ font-size:15px; }
-.drawer-close{ display:grid; place-items:center; width:34px; height:34px; border-radius:10px; color:var(--muted); }
-.drawer-close:hover{ color:var(--ink); background:var(--field); }
-.drawer-close svg{ width:17px; height:17px; }
-.nav-label{ margin:15px 12px 6px; font-size:10px; font-weight:750; letter-spacing:0.15em; text-transform:uppercase; color:var(--faint); }
-.nav-item{ display:flex; align-items:center; gap:12px; padding:9px 12px; border-radius:10px; color:var(--text); font-size:14px; font-weight:650; transition:color .15s var(--ease), background-color .15s var(--ease); }
-.nav-item .ni-ico{ width:18px; height:18px; flex:0 0 auto; color:var(--muted); }
-.nav-item.is-active{ color:var(--accent-ink); background:var(--accent-soft); }
-.nav-item.is-active .ni-ico{ color:var(--accent-ink); }
-.nav-item:hover{ color:var(--ink); background:var(--field); }
-.nav-group{ border-radius:10px; }
-.nav-group summary{ display:flex; align-items:center; gap:12px; padding:9px 12px; border-radius:10px; color:var(--text); font-size:14px; font-weight:650; cursor:pointer; list-style:none; transition:color .15s var(--ease), background-color .15s var(--ease); }
-.nav-group summary::-webkit-details-marker{ display:none; }
-.nav-group summary .ni-ico{ width:18px; height:18px; flex:0 0 auto; color:var(--muted); }
-.nav-group summary .chev{ width:15px; height:15px; margin-left:auto; color:var(--faint); transition:transform .2s var(--ease); }
-.nav-group summary:hover{ color:var(--ink); background:var(--field); }
-.nav-group[open] summary{ color:var(--ink); }
-.nav-group[open] summary .chev{ transform:rotate(180deg); }
-.nav-sub{ display:flex; flex-direction:column; gap:1px; padding:2px 0 8px 42px; }
-.nav-sub a{ display:flex; align-items:baseline; gap:7px; padding:6px 10px; border-radius:8px; color:var(--muted); font-size:12.5px; font-weight:550; transition:color .15s var(--ease), background-color .15s var(--ease); }
-.nav-sub a small{ color:var(--faint); font-size:10.5px; font-weight:500; }
-.nav-sub a:hover{ color:var(--accent-ink); background:var(--field); }
-.drawer-foot{ margin-top:auto; padding-top:13px; border-top:1px solid var(--line); }
-.disclose{ margin:8px 8px 0; font-size:11px; line-height:1.5; color:var(--muted); }
-.disclose strong{ color:var(--text); font-weight:750; }
-.fine{ margin:6px 8px 0; font-size:10.5px; line-height:1.45; color:var(--faint); }
-.app{ height:100dvh; display:flex; flex-direction:column; overflow:hidden; position:relative; z-index:1; }
-.wrap{ flex:1 1 auto; min-height:0; display:grid; place-items:center; overflow:hidden; }
-.stage{ width:100%; max-width:560px; max-height:100%; margin-inline:auto; padding:clamp(14px,3vh,36px) clamp(16px,3.4vw,26px); display:flex; flex-direction:column; align-items:center; text-align:center; }
-.lead{ margin:0 0 clamp(13px,2.2vh,20px); max-width:24ch; font-size:clamp(19px,2.5vw,27px); line-height:1.16; letter-spacing:-0.025em; font-weight:750; color:var(--ink); }
-.lead .hl{ color:var(--accent-ink); }
-.hero-chips{ display:flex; flex-wrap:wrap; justify-content:center; gap:9px; margin-top:clamp(13px,2.2vh,18px); }
-.hchip{ display:inline-flex; align-items:baseline; gap:7px; padding:8px 13px; border-radius:12px; background:var(--panel); box-shadow:inset 0 0 0 1px var(--line); font-size:12px; font-weight:600; color:var(--muted); transition:box-shadow .15s var(--ease), color .15s var(--ease); }
-.hchip b{ color:var(--ink); font-family:var(--mono); font-size:12.5px; font-weight:650; font-variant-numeric:tabular-nums; }
-.hchip .ext{ color:var(--faint); font-size:10px; }
-a.hchip:hover{ box-shadow:inset 0 0 0 1px var(--accent); color:var(--text); }
-a.hchip:hover .ext{ color:var(--accent-ink); }
-.swap-card{ position:relative; width:min(480px,100%); border-radius:28px; background:var(--panel); padding:clamp(20px,4vw,30px); text-align:left; box-shadow:var(--shadow-card); }
-.card-head{ display:flex; align-items:center; justify-content:space-between; margin:2px 4px 17px; }
-.card-title{ font-size:15px; font-weight:800; letter-spacing:-0.02em; color:var(--ink); }
-.badge{ display:inline-flex; align-items:center; gap:6px; padding:5px 11px; border-radius:999px; color:var(--accent-ink); background:var(--accent-soft); font-size:10px; font-weight:750; letter-spacing:0.07em; text-transform:uppercase; }
-.badge i{ width:6px; height:6px; border-radius:50%; background:var(--accent); }
-.field{ position:relative; padding:17px 18px 18px; border-radius:19px; background:var(--field); }
-.field + .field{ margin-top:6px; }
-.field-top{ display:flex; align-items:center; justify-content:space-between; }
-.field-label{ font-size:12px; font-weight:600; color:var(--muted); }
-.field-bal{ font-size:11px; font-weight:600; color:var(--faint); }
-.field-row{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:11px; min-width:0; }
-.amount{ min-width:0; }
-.amount b{ display:block; font-size:clamp(29px,5vw,38px); font-weight:750; line-height:1; letter-spacing:-0.02em; color:var(--ink); font-variant-numeric:tabular-nums; }
-.amount span{ display:block; margin-top:6px; font-size:11px; font-weight:600; color:var(--faint); }
-.token-pill{ display:inline-flex; align-items:center; gap:10px; flex:0 0 auto; padding:7px 12px 7px 8px; border-radius:999px; background:var(--panel); box-shadow:0 4px 14px -8px rgba(0,0,0,.4), inset 0 0 0 1px var(--line); transition:box-shadow .15s var(--ease); }
-.token-pill:hover{ box-shadow:0 6px 18px -8px rgba(0,0,0,.42), inset 0 0 0 1px var(--line-2); }
-.token-pill img{ width:26px; height:26px; flex:0 0 auto; border-radius:50%; }
-.token-meta{ display:flex; flex-direction:column; line-height:1.05; min-width:0; }
-.token-meta small{ font-size:9.5px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--faint); }
-.token-meta b{ font-size:15px; font-weight:800; letter-spacing:-0.01em; color:var(--ink); white-space:nowrap; }
-.token-pill .chev{ width:14px; height:14px; flex:0 0 auto; color:var(--faint); }
-.reverse{ position:relative; z-index:2; display:grid; place-items:center; width:40px; height:40px; margin:-14px auto; border:4px solid var(--panel); border-radius:13px; background:var(--field-2); color:var(--muted); box-shadow:0 6px 16px -8px rgba(0,0,0,.4); transition:transform .28s var(--ease), color .15s var(--ease), background-color .15s var(--ease); }
-.reverse svg{ width:16px; height:16px; }
-.reverse:hover{ color:var(--cta-ink); background:var(--accent); transform:rotate(180deg); }
-.details-btn{ display:flex; align-items:center; justify-content:center; gap:8px; width:100%; margin-top:12px; padding:12px; border-radius:14px; background:var(--field); color:var(--muted); font-size:12px; font-weight:750; letter-spacing:0.06em; text-transform:uppercase; transition:color .15s var(--ease), background-color .15s var(--ease); }
-.details-btn svg{ width:14px; height:14px; transition:transform .2s var(--ease); }
-.details-btn:hover{ color:var(--ink); }
-.details-btn[aria-expanded="true"] svg{ transform:rotate(180deg); }
-.details{ overflow:hidden; max-height:0; opacity:0; transition:max-height .3s var(--ease), opacity .22s var(--ease), margin .3s var(--ease); }
-.details.open{ max-height:280px; opacity:1; margin-top:6px; }
-.d-row{ display:flex; align-items:center; justify-content:space-between; gap:12px; padding:11px 8px; border-bottom:1px solid var(--line); }
-.d-row:last-child{ border-bottom:0; }
-.d-row span{ font-size:12.5px; font-weight:600; color:var(--muted); }
-.d-row b{ font-size:12.5px; font-weight:700; color:var(--text); }
-.d-row b.ok{ color:var(--accent-ink); }
-.d-row b.mono{ font-family:var(--mono); font-size:11px; }
-.cta{ display:flex; align-items:center; justify-content:center; gap:8px; margin-top:12px; padding:16px; border-radius:16px; background:var(--cta); color:var(--cta-ink); font-size:15px; font-weight:800; letter-spacing:0.03em; text-transform:uppercase; box-shadow:0 16px 34px -16px rgba(0,0,0,.5); transition:background-color .15s var(--ease), transform .15s var(--ease); }
-.cta svg{ width:16px; height:16px; }
-.cta:hover{ background:var(--cta-hover); transform:translateY(-1px); }
-.card-note{ margin:13px 4px 0; font-size:11px; line-height:1.5; color:var(--faint); text-align:center; }
-.card-note a{ color:var(--muted); text-decoration:underline; text-decoration-color:var(--line-2); text-underline-offset:2px; }
-.card-note a:hover{ color:var(--accent-ink); }
-@media (max-width:560px){
-  .brand-name{ font-size:16px; } .btn-app span{ display:none; } .btn-app{ padding:9px 11px; }
-  .stage{ padding:12px 16px; }
-  .lead{ font-size:clamp(18px,5.5vw,24px); margin-bottom:14px; }
-  .swap-card{ padding:18px; } .field{ padding:14px 15px 15px; } .amount b{ font-size:29px; }
-  .hero-chips{ margin-top:12px; }
+@media (max-width: 760px) {
+  html {
+    scroll-padding-top: 1rem;
+  }
+  .c90aefa {
+    min-height: 72px;
+  }
+  .cbb3ed4 {
+    padding-block: 1.25rem 3.25rem;
+  }
+  .c1f2489 {
+    margin-bottom: 2.6rem;
+  }
+  .cdb88d6 h1 {
+    max-width: 100%;
+    font-size: clamp(2.45rem, 7.4vw, 3.6rem);
+    letter-spacing: -.045em;
+  }
+  .c7d309c {
+    font-size: 1.05rem;
+  }
+  .ccb39e4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-block: 1.2rem 2.5rem;
+  }
+  .c946517 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.3rem;
+    padding-bottom: 3rem;
+  }
+  .c07c0bd {
+    position: static;
+    max-height: none;
+    padding: 1.2rem;
+    border: 1px solid color-mix(in srgb, var(--text) 10%, var(--surface));
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .c98b7b7 {
+    margin-bottom: .8rem;
+  }
+  .c0b06b7 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .4rem .8rem;
+  }
+  .c336e71 {
+    height: 100%;
+    padding-block: .7rem;
+    font-size: .825rem;
+  }
+  .cb2115a {
+    display: none;
+  }
+  .c6dfbe2 {
+    margin-bottom: 2.5rem;
+  }
+  .c7e3043 {
+    margin-bottom: 2.6rem;
+  }
+  .c7e3043 + .c7e3043 {
+    padding-top: 2.2rem;
+  }
+  .c334f5b {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+  .cdb9218 {
+    padding-block: 2.5rem;
+  }
+  .c7e3043,
+  .c6dfbe2,
+  .cfaed6d,
+  .cdb9218 {
+    scroll-margin-top: 1rem;
+  }
 }
-@media (max-height:700px){ .lead{ font-size:clamp(17px,4.5vw,21px); margin-bottom:10px; } .hero-chips{ display:none; } }
-@media (max-height:600px){ .field{ padding:12px 15px 13px; } .amount b{ font-size:26px; } .details-btn{ margin-top:8px; padding:9px; } .cta{ padding:14px; margin-top:8px; } }
-@media (prefers-reduced-motion: reduce){ *{ transition:none !important; } }
-.stage.is-hero{ max-width:780px; }
-.hero{ display:flex; flex-direction:column; align-items:center; text-align:center; }
-.hero-h2{ margin:0; max-width:17ch; font-size:clamp(31px,5.8vw,56px); line-height:1.04; letter-spacing:-0.035em; font-weight:830; color:var(--ink); }
-.hero-h2 .hl{ color:var(--accent-ink); }
-.hero-sub{ margin:clamp(16px,2.8vh,23px) auto 0; max-width:54ch; font-size:clamp(15px,1.65vw,18px); line-height:1.58; color:var(--muted); font-weight:450; }
-.hero-cta{ display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin-top:clamp(22px,3.6vh,32px); }
-.hero-cta .cta{ margin-top:0; text-transform:none; letter-spacing:0.005em; padding:15px 26px; font-size:15px; border-radius:14px; }
-.hero-cta .cta-ghost{ background:var(--panel); color:var(--ink); box-shadow:inset 0 0 0 1px var(--line-2); }
-.hero-cta .cta-ghost:hover{ background:var(--field); box-shadow:inset 0 0 0 1px var(--accent); transform:translateY(-1px); }
-@media (max-width:560px){ .hero-cta{ flex-direction:column; width:100%; max-width:340px; } .hero-cta .cta{ width:100%; } }
-@media (max-height:640px){ .hero-sub{ font-size:14px; margin-top:12px; } .hero-chips{ display:none; } }
-  </style>
-  <script>document.documentElement.classList.add('js')</script>
+@media (max-width: 440px) {
+  .cefe23b {
+    width: calc(100% - 2rem);
+  }
+  .c90aefa {
+    gap: 1rem;
+  }
+  .c78a686 {
+    gap: .5rem;
+    font-size: 1.05rem;
+  }
+  .c78d633 {
+    gap: .45rem;
+    font-size: .8rem;
+  }
+  .ca97e7f {
+    gap: .65rem;
+    margin-bottom: 1.1rem;
+  }
+  .cdb88d6 h1 {
+    font-size: 2.5rem;
+  }
+  .ce9240f {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .c43fad9 {
+    padding: .9rem;
+  }
+  .c43fad9 strong {
+    font-size: .9rem;
+  }
+  .c43fad9 span {
+    font-size: .75rem;
+  }
+  .c0b06b7 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .c6dfbe2 {
+    padding: 1.15rem;
+  }
+  .cddbc83 {
+    font-size: .85rem;
+  }
+  .cddbc83 th,
+  .cddbc83 td {
+    padding-block: .9rem;
+    padding-inline: .5rem;
+  }
+  .c6a6f49 {
+    font-size: .95rem;
+    line-height: 1.8;
+  }
+  .c6a6f49 blockquote {
+    padding: 1rem 1.1rem;
+  }
+  .caa4bcc {
+    padding: 1.1rem 3rem 1.1rem 1.1rem;
+    font-size: .95rem;
+  }
+  .caa4bcc::after {
+    top: 1.1rem;
+    right: .9rem;
+  }
+  .c41a2b4 {
+    padding: 0 1.1rem 1.2rem;
+    font-size: .9rem;
+  }
+  .c12b089 {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .6rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
+  .ce9240f:hover {
+    transform: none;
+  }
+}
+@media print {
+  body {
+    background: var(--surface);
+    font-size: 10pt;
+  }
+  .cefe23b {
+    width: 100%;
+  }
+  .cffaac0,
+  .c5c0a72,
+  .ce9240f,
+  .c07c0bd,
+  .cdb88d6::after {
+    display: none;
+  }
+  .cdb88d6 {
+    background: var(--surface);
+  }
+  .cbb3ed4 {
+    padding-block: 1rem 2rem;
+  }
+  .c1f2489 {
+    margin-bottom: 1.5rem;
+  }
+  .cdb88d6 h1 {
+    font-size: 32pt;
+  }
+  .ccb39e4 {
+    margin-bottom: 2rem;
+  }
+  .c946517,
+  .c334f5b {
+    display: block;
+  }
+  .c6dfbe2,
+  .c43fad9,
+  .c4f1704 {
+    box-shadow: none;
+  }
+  .c4449d2,
+  .c6a6f49 h3 {
+    break-after: avoid;
+  }
+  .c4f1704,
+  .c3834c2,
+  .c6a6f49 tr {
+    break-inside: avoid;
+  }
+  .cc106f7 {
+    margin-bottom: 1rem;
+  }
+}
+</style>
 </head>
 <body>
-  <a class="skip" href="#route-preview">Skip to preview</a>
-  <div class="bg" aria-hidden="true"></div>
-
-  <div class="app">
-  <header class="topbar">
-    <div class="tb-left">
-      <button class="hamb" type="button" id="hamb" aria-label="Open navigation" aria-controls="drawer" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
-      <div class="brand"><span class="brand-logo"><img src="favicon.png" width="22" height="22" alt="NFT Platforms logo"></span><h1 class="brand-name">NFT Platforms</h1></div>
+<a class="c5c0a72" href="#guide-main">Skip to guide</a>
+<header class="cffaac0">
+  <div class="cefe23b c90aefa">
+    <div class="c78a686">
+      <span class="c497502" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v14h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4zM12 6.5v14M7 9h2M15 9h2M7 12h2M15 12h2"/></svg></span>
+      <span>The guide</span>
     </div>
-    <div class="tb-right">
-      <div class="theme-toggle" role="group" aria-label="Color theme">
-        <button type="button" id="theme-light" aria-pressed="true" aria-label="Light theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg></button>
-        <button type="button" id="theme-dark" aria-pressed="false" aria-label="Dark theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a6.5 6.5 0 1 0 10.5 10.5z"/></svg></button>
-      </div>
-      <a class="btn-app" href="dashboard/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M16 11h2"/></svg><span>Open app</span></a>
-    </div>
-  </header>
-
-  <div class="scrim" id="scrim" tabindex="-1"></div>
-  <aside class="drawer" id="drawer" aria-label="Primary" aria-hidden="true">
-    <div class="drawer-head">
-      <div class="brand"><span class="brand-logo"><img src="favicon.png" width="22" height="22" alt=""></span><span class="brand-name">NFT Platforms</span></div>
-      <button class="drawer-close" type="button" id="drawer-close" aria-label="Close navigation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-    </div>
-    <nav aria-label="Sections">
-      <p class="nav-label">Bridge</p>
-      <a class="nav-item is-active" href="#route-preview" aria-current="page"><svg class="ni-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 10h11l-3-3M17 14H6l3 3"/></svg>Route preview</a>
-      <p class="nav-label">Understand</p>
-      <details class="nav-group" open><summary><svg class="ni-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h10a3 3 0 0 1 3 3v11a2 2 0 0 0-2-2H4zM20 5h-1a3 3 0 0 0-3 3v11a2 2 0 0 1 2-2h2z"/></svg>NFT fundamentals<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="nav-sub"><a href="https://ethereum.org/nft/" target="_blank" rel="noopener noreferrer">Ethereum NFTs <small>Ethereum NFT overview</small></a><a href="https://eips.ethereum.org/EIPS/eip-721" target="_blank" rel="noopener noreferrer">ERC-721 <small>Single-token NFT standard</small></a><a href="https://eips.ethereum.org/EIPS/eip-1155" target="_blank" rel="noopener noreferrer">ERC-1155 <small>Multi-token NFT standard</small></a><a href="https://en.wikipedia.org/wiki/Non-fungible_token" target="_blank" rel="noopener noreferrer">Non-fungible token <small>Independent concept history</small></a></div></details>
-      <p class="nav-label">Markets &amp; data</p>
-      <details class="nav-group"><summary><svg class="ni-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h10a3 3 0 0 1 3 3v11a2 2 0 0 0-2-2H4zM20 5h-1a3 3 0 0 0-3 3v11a2 2 0 0 1 2-2h2z"/></svg>Compare marketplaces<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="nav-sub"><a href="https://defillama.com/nfts/marketplaces" target="_blank" rel="noopener noreferrer">DeFiLlama Marketplaces <small>Marketplace volume rankings</small></a><a href="https://dappradar.com/rankings/category/nft-marketplace-general" target="_blank" rel="noopener noreferrer">DappRadar Rankings <small>NFT marketplace dapps</small></a><a href="https://blur.io/" target="_blank" rel="noopener noreferrer">Blur <small>Professional marketplace liquidity</small></a><a href="https://opensea.io/" target="_blank" rel="noopener noreferrer">OpenSea <small>Multi-chain marketplace activity</small></a></div></details>
-      <p class="nav-label">Guides</p>
-      <details class="nav-group"><summary><svg class="ni-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h10a3 3 0 0 1 3 3v11a2 2 0 0 0-2-2H4zM20 5h-1a3 3 0 0 0-3 3v11a2 2 0 0 1 2-2h2z"/></svg>Explore platforms<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="nav-sub"><a href="https://support.opensea.io/en/articles/8866942-welcome-to-opensea" target="_blank" rel="noopener noreferrer">Welcome to OpenSea <small>OpenSea getting started</small></a><a href="https://docs.opensea.io/" target="_blank" rel="noopener noreferrer">OpenSea Documentation <small>Marketplace developer resources</small></a><a href="https://magiceden.us/about" target="_blank" rel="noopener noreferrer">About Magic Eden <small>Marketplace background and scope</small></a><a href="https://rarible.com/" target="_blank" rel="noopener noreferrer">Rarible <small>Community marketplace access</small></a></div></details>
-      <p class="nav-label">Safety</p>
-      <details class="nav-group"><summary><svg class="ni-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h10a3 3 0 0 1 3 3v11a2 2 0 0 0-2-2H4zM20 5h-1a3 3 0 0 0-3 3v11a2 2 0 0 1 2-2h2z"/></svg>Trade more safely<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="nav-sub"><a href="https://support.opensea.io/en/articles/8867129-how-can-i-stay-safe-and-protect-my-nfts" target="_blank" rel="noopener noreferrer">Protect Your NFTs <small>NFT protection checklist</small></a><a href="https://support.opensea.io/en/articles/9270591-what-are-some-common-web3-scams" target="_blank" rel="noopener noreferrer">Common Web3 Scams <small>Common scam patterns</small></a><a href="https://support.metamask.io/more-web3/learn/how-to-revoke-smart-contract-allowances-token-approvals/" target="_blank" rel="noopener noreferrer">Revoke Token Approvals <small>Review and revoke approvals</small></a><a href="https://ethereum.org/security/" target="_blank" rel="noopener noreferrer">Ethereum Security <small>Wallet security guidance</small></a></div></details>
+    <a class="c78d633" href="dashboard/">Open app <span class="cd52b33" aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<section class="cdb88d6" aria-labelledby="guide-title">
+  <div class="cefe23b cbb3ed4">
+    <nav class="c1f2489" aria-label="Breadcrumb"><nav class="c98dff1" aria-label="Breadcrumb"><a href="dashboard/">Home</a> <span>/</span> <span>NFT</span> <span>/</span> <span>NFT Platforms</span></nav></nav>
+    <div class="ca97e7f"><span class="cd45941">A closer look</span><span class="cecd65b"></span></div>
+    <h1 id="guide-title">NFT <em>Platforms</em>.</h1>
+    <p class="c7d309c"><strong>NFT Platforms</strong> are the infrastructure creators and developers use to mint, launch and manage non-fungible tokens — not just the storefronts that list them for sale. The category spans minting tools that turn artwork or metadata into an on-chain token, launchpads that schedule and gate a public drop, token standards that define what a token can do, and the chains that host all of it. Understanding how these pieces fit together matters more than picking a single marketplace, because the platform a creator chooses determines what their collection can do later — royalties, licensing, cross-chain reach and how easily collectors can verify what they own.</p>
+    <a class="ce9240f" href="dashboard/">Open dashboard <span class="cd52b33" aria-hidden="true">↗</span></a>
+  </div>
+</section>
+<div class="cefe23b">
+  <div class="ccb39e4" aria-label="Guide highlights">
+    <div class="c43fad9"><strong>Key facts</strong><span>The essentials at a glance</span></div>
+    <div class="c43fad9"><strong>In depth</strong><span>Explore the details</span></div>
+    <div class="c43fad9"><strong>Questions answered</strong><span>Find a little more clarity</span></div>
+    <div class="c43fad9"><strong>Sources</strong><span>Follow the references</span></div>
+  </div>
+  <div class="c946517">
+    <nav class="c07c0bd" aria-labelledby="toc-title">
+      <h2 class="c98b7b7" id="toc-title">On this page</h2>
+      <ul class="c0b06b7" id="toc-list">
+        <li><a class="c336e71" href="#key-facts">Key facts</a></li>
+        <li><a class="c336e71" href="#guide-sections" data-sections-link>In depth</a></li>
+        <li><a class="c336e71" href="#questions">Questions &amp; answers</a></li>
+        <li><a class="c336e71" href="#sources">Sources</a></li>
+      </ul>
+      <p class="cb2115a">Read from the beginning, or jump to the details you need.</p>
     </nav>
-    <div class="drawer-foot">
-      <p class="disclose"><strong>Independent dashboard.</strong> Not affiliated with any protocol or issuer named here.</p>
-      <p class="fine">Live figures come from public third-party sources and change. Educational reference only.</p>
-    </div>
-  </aside>
-
-  <div class="wrap">
-    <main class="stage is-hero">
-      <div class="hero" id="app">
-        <h2 class="hero-h2">Compare <span class="hl">NFT markets</span> with confidence</h2>
-        <p class="hero-sub">Track marketplace activity, compare leading venues, and review standards and safety resources before trading digital collectibles.</p>
-        <div class="hero-cta">
-          <a class="cta cta-primary" href="dashboard/" target="_blank" rel="noopener noreferrer">Enter Dashboard <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-          <a class="cta cta-ghost" href="https://defillama.com/nfts/marketplaces" target="_blank" rel="noopener noreferrer">View market data</a>
-        </div>
-      </div>
-      <div class="hero-chips">
-        <a class="hchip" href="https://ethereum.org/en/developers/docs/apis/json-rpc/" target="_blank" rel="noopener noreferrer">Ethereum Gas <b id="sig0">—</b> <span class="ext" aria-hidden="true">↗</span></a>
-          <a class="hchip" href="https://ethereum.org/nft/" target="_blank" rel="noopener noreferrer">NFT Standards <b>ERC-721 + ERC-1155</b> <span class="ext" aria-hidden="true">↗</span></a>
-          <a class="hchip" href="https://defillama.com/nfts/marketplaces" target="_blank" rel="noopener noreferrer">Market Coverage <b>Cross-chain</b> <span class="ext" aria-hidden="true">↗</span></a>
-      </div>
+    <main class="cc89a60" id="guide-main" tabindex="-1">
+      <section class="c6dfbe2" id="key-facts" aria-labelledby="facts-title">
+        <div class="c9e0ee4"><h2 id="facts-title">Key facts</h2><p>At a glance</p></div>
+        <div class="cd4918e"><table class="cddbc83"><tbody><tr><th scope="row">Category</th><td>Minting tools, launchpads, creator dashboards, token standards</td></tr>
+<tr><th scope="row">Core standards</th><td>ERC-721 (unique tokens), ERC-1155 (multi-token)</td></tr>
+<tr><th scope="row">Common chains</th><td>Ethereum, Polygon, Base, Solana, Arbitrum</td></tr>
+<tr><th scope="row">Deployment model</th><td>Smart contract per collection, or shared contract with token IDs</td></tr>
+<tr><th scope="row">Royalty mechanism</th><td>On-chain enforcement or marketplace-level, varies by platform</td></tr>
+<tr><th scope="row">Ownership proof</th><td>Wallet-held token, verifiable on a public explorer</td></tr></tbody></table></div>
+      </section>
+      <div class="c94e73f" id="guide-sections"><section class="c7e3043"><h2 class="c4449d2">What Are NFT Platforms?</h2><div class="c6a6f49"><strong>NFT Platforms are the tools and services that let creators mint, configure and launch non-fungible tokens, independent of any single marketplace that later lists them for sale.</strong> A marketplace is just one layer on top; the platforms underneath handle contract deployment, metadata storage, minting logic and, increasingly, the launchpad mechanics that control who can mint and when. Most of what a collector eventually sees as a simple "buy" button rests on a stack of decisions a creator made earlier, often on a completely different platform, about how the token itself behaves. The underlying concept of a non-fungible token is described in detail on <a href="https://en.wikipedia.org/wiki/Non-fungible_token" rel="nofollow noopener" target="_blank">Wikipedia</a>, which is a useful primer before comparing specific tools.<h3>Minting platforms</h3>A minting platform converts a file, a set of attributes or generative art into an on-chain token with its own contract address and token ID. Some platforms deploy a dedicated contract per collection; others mint into a shared contract and differentiate tokens purely by ID. Either approach is valid — the choice affects gas cost, upgrade flexibility and how cleanly a collection can be tracked later.<h3>Launchpads</h3>A launchpad adds scheduling and access control on top of minting: allowlists, mint phases, per-wallet limits and a public sale window. Launchpads exist because a bare minting contract has no concept of fairness or demand management, and a popular drop without those controls tends to get bought out by bots within seconds.<h3>Creator tools</h3>Beyond minting itself, creator tools cover metadata hosting, collection analytics, royalty configuration and sometimes airdrop or allowlist management. These tools are what separate a one-off mint from an ongoing collection a creator can update, extend or support after launch.</div></section>
+<section class="c7e3043"><h2 class="c4449d2">Token Standards Behind NFT Platforms</h2><div class="c6a6f49">Every NFT platform ultimately builds on a token standard, and the two that matter are ERC-721 and ERC-1155. The standard a platform defaults to shapes what a creator can do later, so it is worth understanding before picking a tool.<h3>ERC-721: one token, one identity</h3>ERC-721, documented on <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-721/" rel="nofollow noopener" target="_blank">ethereum.org</a>, gives every token a unique ID and its own metadata, which is why it became the default for one-of-one art and numbered collections. Most general-purpose minting platforms default to ERC-721 because collectors expect each token to be individually distinct.<h3>ERC-1155: many tokens, one contract</h3>ERC-1155, specified in <a href="https://eips.ethereum.org/EIPS/eip-1155" rel="nofollow noopener" target="_blank">EIP-1155</a>, lets a single contract manage many token types and supports batch transfers, which suits game items, editions and anything minted in quantity. Platforms built for game assets or multi-edition drops tend to favor this standard because it cuts gas costs when many tokens move at once.</div></section>
+<section class="c7e3043"><h2 class="c4449d2">Chains That Power NFT Platforms</h2><div class="c6a6f49">NFT Platforms are not tied to one chain. Ethereum remains the reference environment because of its tooling and liquidity, but gas cost pushed most high-volume minting toward lower-fee chains. The table below compares what each environment is typically used for, and any contract on any of them can be checked directly on a public explorer such as <a href="https://etherscan.io/" rel="nofollow noopener" target="_blank">Etherscan</a>.<table><thead><tr><th>Chain</th><th>Typical standard</th><th>Common use</th></tr></thead><tbody><tr><td>Ethereum</td><td>ERC-721 / ERC-1155</td><td>High-value art, established collections</td></tr><tr><td>Polygon</td><td>ERC-721 / ERC-1155</td><td>Low-fee minting, large editions</td></tr><tr><td>Base</td><td>ERC-721 / ERC-1155</td><td>Consumer apps, social drops</td></tr><tr><td>Solana</td><td>SPL / Metaplex</td><td>High-throughput, game assets</td></tr></tbody></table></div></section>
+<section class="c7e3043"><h2 class="c4449d2">Royalties and Licensing on NFT Platforms</h2><div class="c6a6f49">A creator's royalty on resale is one of the most platform-dependent details in the whole space. Some NFT Platforms write royalty percentages directly into the contract so every transfer enforces payment automatically; others rely on the marketplace honoring an off-chain royalty standard, which means the fee only applies where the marketplace chooses to respect it. Licensing works the same way: a collection's terms — whether holders get commercial rights to the artwork or only a display license — are set by the creator at mint time and documented by the platform, not assumed by default.<h3>On-chain enforcement vs. convention</h3>On-chain royalty enforcement is the stricter model: the contract itself blocks or redirects a transfer that skips payment. The more common model is convention-based, where royalty metadata travels with the collection but enforcement depends on the marketplace respecting it. Creators choosing a platform for long-term royalty income should check which model that platform actually implements rather than assuming the two are equivalent.</div></section>
+<section class="c7e3043"><h2 class="c4449d2">Launching a Collection on NFT Platforms</h2><div class="c6a6f49">The sequence below is close to universal across minting platforms and launchpads, even though the exact interface differs from one tool to the next.<ul><li>Prepare the artwork or generative traits and finalize the metadata structure.</li><li>Choose a token standard — ERC-721 for unique items, ERC-1155 for editions or batches.</li><li>Deploy or configure the contract on the chosen chain and set supply, price and royalty terms.</li><li>Set up allowlist phases and mint limits if using a launchpad.</li><li>Open the public mint and monitor it through the platform's dashboard or a chain explorer.</li></ul></div></section>
+<section class="c7e3043"><h2 class="c4449d2">NFT Platforms vs. Marketplaces</h2><div class="c6a6f49">It helps to separate the two layers clearly. A marketplace is where finished tokens get listed, bought and sold after they already exist. NFT Platforms are the layer that made the tokens exist in the first place — the minting contract, the launchpad logic, the metadata storage and the royalty rules baked in at creation. A single collection can be minted on one platform's tooling, hosted on a particular chain, and then listed across several marketplaces simultaneously, because ownership is recorded on-chain and any compliant marketplace can read it. This is also why activity trackers such as <a href="https://dappradar.com/rankings/nft" rel="nofollow noopener" target="_blank">DappRadar</a> report volume by marketplace even when the underlying collections were minted through entirely different creator platforms.</div></section>
+<section class="c7e3043"><h2 class="c4449d2">Choosing the Right NFT Platforms for a Project</h2><div class="c6a6f49">The right choice depends on what the project actually needs. A one-of-one artist usually wants an ERC-721 minting tool with simple metadata hosting and clear royalty settings. A studio launching thousands of game items is better served by an ERC-1155 platform built for batch minting and low per-item gas. A project expecting a high-demand public drop needs a launchpad with real allowlist and anti-bot controls, not just a minting contract. Before committing, check three things on any candidate platform: which token standard it defaults to, whether royalties are enforced on-chain or by convention, and which chains it supports, since moving a collection to a different chain later is rarely simple once a community has formed around the original one.</div></section></div>
+      <section class="cfaed6d" id="questions" aria-labelledby="questions-title">
+        <h2 class="c4449d2" id="questions-title">Questions &amp; answers</h2>
+        <details class="c4f1704"><summary class="caa4bcc">What exactly are NFT Platforms?</summary><div class="c41a2b4">NFT Platforms are the minting tools, launchpads, creator dashboards and underlying token standards used to create and manage non-fungible tokens, as distinct from the marketplaces that later list them for sale.</div></details>
+<details class="c4f1704"><summary class="caa4bcc">What is the difference between a minting platform and a launchpad?</summary><div class="c41a2b4">A minting platform turns artwork or metadata into an on-chain token. A launchpad adds scheduling and access control on top — allowlists, mint phases and per-wallet limits — for a public drop.</div></details>
+<details class="c4f1704"><summary class="caa4bcc">Should I use ERC-721 or ERC-1155?</summary><div class="c41a2b4">ERC-721 suits unique, one-of-one tokens where each item needs its own identity. ERC-1155 suits editions, game items or anything minted in quantity, since one contract can manage many token types and batch transfers.</div></details>
+<details class="c4f1704"><summary class="caa4bcc">Do all NFT Platforms enforce royalties automatically?</summary><div class="c41a2b4">No. Some write royalty enforcement directly into the contract, while others rely on marketplaces voluntarily honoring royalty metadata. The two models behave very differently for long-term creator income.</div></details>
+<details class="c4f1704"><summary class="caa4bcc">Which chain should a new collection launch on?</summary><div class="c41a2b4">It depends on the project. Ethereum offers the deepest liquidity and tooling, while Polygon, Base and Solana offer lower fees for high-volume or game-asset minting. Check chain support before committing to a platform.</div></details>
+<details class="c4f1704"><summary class="caa4bcc">Can a collection move to a different platform or chain after launch?</summary><div class="c41a2b4">Moving a live collection to a different chain or minting platform is difficult once a community and secondary market exist around the original contract, so chain and standard choices are worth getting right before launch.</div></details>
+<details class="c4f1704"><summary class="caa4bcc">How do I verify who actually owns an NFT?</summary><div class="c41a2b4">Ownership is recorded on-chain against the token's contract and ID, so anyone can check the current holder of a specific token directly on a public chain explorer.</div></details>
+      </section>
     </main>
   </div>
+</div>
+<section class="cdb9218" id="sources" aria-labelledby="sources-title">
+  <div class="cefe23b c334f5b">
+    <div class="cc106f7"><h2 id="sources-title">Sources</h2><p>References for further reading.</p></div>
+    <div class="c7d7921"><ul class="cf31224"><li><a class="c3834c2" href="https://ethereum.org/en/developers/docs/standards/tokens/erc-721/" rel="nofollow noopener" target="_blank">Ethereum — ERC-721 Token Standard</a></li>
+<li><a class="c3834c2" href="https://eips.ethereum.org/EIPS/eip-1155" rel="nofollow noopener" target="_blank">EIP-1155 Multi-Token Standard</a></li>
+<li><a class="c3834c2" href="https://en.wikipedia.org/wiki/Non-fungible_token" rel="nofollow noopener" target="_blank">Wikipedia — Non-fungible token</a></li>
+<li><a class="c3834c2" href="https://dappradar.com/rankings/nft" rel="nofollow noopener" target="_blank">DappRadar — NFT Rankings</a></li></ul></div>
   </div>
-
-  <script>
-  (function(){
-    "use strict";
-    var $=function(id){ return document.getElementById(id); };
-    var root=document.documentElement, tl=$("theme-light"), td=$("theme-dark");
-    function applyTheme(t){ if(t==="dark"){ root.setAttribute("data-theme","dark"); } else { root.removeAttribute("data-theme"); } if(tl) tl.setAttribute("aria-pressed", String(t!=="dark")); if(td) td.setAttribute("aria-pressed", String(t==="dark")); }
-    var saved=null; try{ saved=localStorage.getItem("nftplatfor-theme"); }catch(e){}
-    if(saved) applyTheme(saved);
-    function setTheme(t){ applyTheme(t); try{ localStorage.setItem("nftplatfor-theme", t); }catch(e){} }
-    if(tl) tl.addEventListener("click", function(){ setTheme("light"); });
-    if(td) td.addEventListener("click", function(){ setTheme("dark"); });
-    var body=document.body, hamb=$("hamb"), scrim=$("scrim"), drawer=$("drawer"), dclose=$("drawer-close");
-    function openD(){ body.classList.add("drawer-open"); hamb.setAttribute("aria-expanded","true"); drawer.setAttribute("aria-hidden","false"); }
-    function closeD(){ body.classList.remove("drawer-open"); hamb.setAttribute("aria-expanded","false"); drawer.setAttribute("aria-hidden","true"); }
-    if(hamb) hamb.addEventListener("click", function(){ body.classList.contains("drawer-open")?closeD():openD(); });
-    if(scrim) scrim.addEventListener("click", closeD);
-    if(dclose) dclose.addEventListener("click", closeD);
-    document.addEventListener("keydown", function(e){ if(e.key==="Escape" && body.classList.contains("drawer-open")) closeD(); });
-    if(drawer) drawer.addEventListener("click", function(e){ if(e.target.closest("a")) closeD(); });
-
-    var db=$("details-btn"), dp=$("details");
-    if(db&&dp) db.addEventListener("click", function(){ var open=dp.classList.toggle("open"); db.setAttribute("aria-expanded", String(open)); db.firstChild.textContent = open?"Hide details ":"Show details "; });
-    function money(n){ if(n>=1e9) return "$"+(n/1e9).toFixed(2)+"B"; if(n>=1e6) return "$"+(n/1e6).toFixed(1)+"M"; if(n>=1e3) return "$"+(n/1e3).toFixed(0)+"K"; return "$"+n.toFixed(0); }
-    function gwei(g){ return (g>=0.1?g.toFixed(2):(g>=0.001?g.toFixed(3):Number(g.toPrecision(2)).toString()))+" gwei"; }
-    function grab(url,opt){ var c="AbortController" in window ? new AbortController():null, t=c?setTimeout(function(){c.abort();},7000):null; var o=opt||{}; if(c) o.signal=c.signal; return fetch(url,o).then(function(r){ if(!r.ok) throw 0; return r.json(); }).finally(function(){ if(t) clearTimeout(t); }); }
-    grab("https://ethereum-rpc.publicnode.com",{ method:"POST", headers:{"Content-Type":"application/json"}, body:'{"jsonrpc":"2.0","id":1,"method":"eth_gasPrice","params":[]}' }).then(function(j){ var wei=j&&j.result?parseInt(j.result,16):NaN; if(isFinite(wei)&&wei>0) $("sig0").textContent=gwei(wei/1e9); }).catch(function(){});
-  })();
-  </script>
+</section>
+<footer class="c576ad7">
+  <div class="cefe23b c12b089">
+    <span class="c9fcdd5">The guide</span>
+    <p class="c50a962">Last updated <span>Updated Oct 09, 2026</span></p>
+  </div>
+</footer>
+<script>
+(() => {
+  const toc = document.getElementById('toc-list');
+  const sections = Array.from(document.querySelectorAll('#guide-sections .c7e3043'));
+  const fallback = toc.querySelector('[data-sections-link]');
+  const fragment = document.createDocumentFragment();
+  sections.forEach((section, index) => {
+    if (!section.id) {
+      const base = `guide-section-${index + 1}`;
+      let id = base;
+      let suffix = 1;
+      while (document.getElementById(id)) id = `${base}-${suffix++}`;
+      section.id = id;
+    }
+    const heading = section.querySelector('.c4449d2, h2, h3');
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    link.className = 'toc-link';
+    link.href = `#${encodeURIComponent(section.id)}`;
+    link.textContent = heading?.textContent.trim() || section.getAttribute('aria-label') || `Section ${index + 1}`;
+    item.append(link);
+    fragment.append(item);
+  });
+  if (sections.length) fallback.parentElement.replaceWith(fragment);
+  const entries = Array.from(toc.querySelectorAll('a[href^="#"]')).map(link => {
+    const target = document.getElementById(decodeURIComponent(link.hash.slice(1)));
+    return { link, target };
+  }).filter(entry => entry.target);
+  if (!entries.length) return;
+  let activeLink;
+  let pending = false;
+  const activate = entry => {
+    if (!entry || entry.link === activeLink) return;
+    if (activeLink) activeLink.removeAttribute('aria-current');
+    entry.link.setAttribute('aria-current', 'location');
+    activeLink = entry.link;
+  };
+  const update = () => {
+    pending = false;
+    const boundary = Math.min(180, window.innerHeight * .25);
+    let active = entries[0];
+    for (const entry of entries) {
+      if (entry.target.getBoundingClientRect().top <= boundary) active = entry;
+    }
+    const root = document.scrollingElement || document.documentElement;
+    if (root.scrollHeight > window.innerHeight && Math.ceil(window.scrollY + window.innerHeight) >= root.scrollHeight - 2) {
+      active = entries[entries.length - 1];
+    }
+    activate(active);
+  };
+  const schedule = () => {
+    if (pending) return;
+    pending = true;
+    window.requestAnimationFrame(update);
+  };
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(schedule, {
+      rootMargin: '-12% 0px -60% 0px',
+      threshold: [0, .1, .5, 1]
+    });
+    entries.forEach(entry => observer.observe(entry.target));
+  }
+  toc.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const entry = entries.find(item => item.link === link);
+    if (!entry) return;
+    event.preventDefault();
+    const hadTabindex = entry.target.hasAttribute('tabindex');
+    if (!hadTabindex) {
+      entry.target.setAttribute('tabindex', '-1');
+      entry.target.addEventListener('blur', () => entry.target.removeAttribute('tabindex'), { once: true });
+    }
+    entry.target.focus({ preventScroll: true });
+    entry.target.scrollIntoView({
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      block: 'start'
+    });
+    if (window.location.hash !== link.hash) {
+      try { window.history.pushState(null, '', link.hash); } catch {}
+    }
+    activate(entry);
+  });
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', schedule, { passive: true });
+  window.addEventListener('hashchange', schedule);
+  window.addEventListener('load', schedule, { once: true });
+  update();
+})();
+</script>
 </body>
 </html>
